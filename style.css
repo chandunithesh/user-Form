@@ -1,0 +1,83 @@
+body {
+    background-color: #e0f7fa; /* Soft light cyan background */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading styling */
+h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #00796b; /* Deep teal for the heading */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Form styling */
+form {
+    background-color: #ffffff; /* White background for the form */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* Adding depth with a shadow */
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Styling for form groups (fields) */
+form .form-group {
+    margin-bottom: 20px;
+}
+
+/* Input fields styling */
+form .form-control {
+    background-color: #f1f8e9; /* Light greenish background */
+    border: 1px solid #00796b; /* Teal border */
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+form .form-control:focus {
+    border-color: #004d40; /* Darker teal when focused */
+    box-shadow: 0 0 5px rgba(0, 128, 128, 0.5);
+}
+
+/* Error message styling */
+small.text-danger {
+    color: #d32f2f; /* Red color for error messages */
+    font-size: 0.9rem;
+}
+
+/* Submit button styling */
+button {
+    background-color: #00796b; /* Teal color for the button */
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #004d40; /* Darker teal for hover effect */
+    box-shadow: 0 0 10px rgba(0, 128, 128, 0.3);
+}
+
+/* Responsive design - adjust the form on smaller screens */
+@media (max-width: 768px) {
+    form {
+        padding: 20px;
+        margin: 20px;
+    }
+    
+    h2 {
+        font-size: 2rem; /* Adjust heading size for smaller screens */
+    }
+    
+    button {
+        font-size: 1rem;
+    }
+}
